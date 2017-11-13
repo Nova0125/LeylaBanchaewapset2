@@ -25,8 +25,7 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.second_layout);
 
-        if (stream == null) {
-
+        if (savedInstanceState == null) {
             int randomIndex = generator.nextInt(file_list.length);
 
             try {
