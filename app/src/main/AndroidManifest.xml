@@ -23,7 +23,6 @@
             android:name=".SecondActivity"
             android:parentActivityName=".MainActivity" />
         <activity android:name=".ThirdActivity" />
-        <activity android:name=".FirstActivity"></activity>
     </application>
 
 </manifest>
